@@ -14,29 +14,28 @@ requests.
 ## Requirments:
 #### Functional Requirments (FR)
 | ID    | Requirement                                |
-| ------|:-----------------------------------------:|
+| ------|-----------------------------------------|
 | FR-1  | Implements a flexible rules-based system for validating and verifying leaves | 
 | FR-2  | Enables manager approval (optional)      | 
 | FR-3  | Display the past requests      | 
 | FR-4  | Allow requests to be made up to a year and a half in the future|
-| FR-5 |  Uses e-mail notifications for manager approval and notify employees with the request status changes|
-| FR-6 | Keeps activity logs for all transactions |
-| FR-7 | HR and system administror can override all actions
-restricted by rules, with logging of those actions|
-| FR-8 | Allows managers to directly award personal leave time (with system-set
-limits)|
-| FR-9 | Provides a Web service interface for other internal systems to query employee’s vacation request summary|
+| FR-5  | Uses e-mail notifications for manager approval and notify employees with the request status changes|
+| FR-6  | Keeps activity logs for all transactions |
+| FR-7  | HR and system administrator can override all actions restricted by rules, with logging of those actions|
+| FR-8  | Allows managers to directly award personal leave time (with system-set limits)|
+| FR-9  | Provides a Web service interface for other internal systems to query employee’s vacation request summary|
 | FR-10 | Interface with the HR department legacy systems to retrieve employee information and changes |
 
 
 #### Non-functional Requirments (NFR)
-| ID    | Requirement   |
-|-------|:--------------:|
-| NFR-1 | Uses existing hardware and middleware | 
-| NFR-2 | uses the portal’s single-sign-on mechanisms for all authentication|
-| NFR- 3 ||
-|||
-|||
+| ID     | Requirement |
+|--------|-------------|
+| NFR-1  | Uses existing hardware and middleware |
+| NFR-2  | For presentation tier: Java Server Pages (JSP), Servlets, and Java Server Faces (JSF) |
+| NFR-3  | For Business tier: Enterprise Java Beans (EJB) 2.x (specifically, Container Managed Persistence [CMP] beans for entities, and session beans for controllers), and Service Data Objects (SDO) |
+| NFR-4  | Security: Central Authentication Service (CAS), uses the portal’s single-sign-on mechanisms for all authentication |
+| NFR-5  | Implement an intuitive user interface that has a quick response and is easy to navigate |
+| NFR-6  | The interface should not have any dependencies on specific browser versions or features, and should behave properly on all standard HTML 3.2-capable browsers |
  
 
 ## Constraints / Rules:
