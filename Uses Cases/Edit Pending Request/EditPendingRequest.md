@@ -32,3 +32,57 @@ information, the changes are accepted, and the screen returns to the
 main VTS home page. If there are errors or problems with the informa-
 tion changes, the VTS redisplays the editing page and highlights and
 explains all problems.
+
+#### Pseudocode
+
+1. Edit a pending request
+```
+BEGIN
+
+    LOGIN TO Intranet Portal
+    OPEN VTS
+
+    request = SELECT employee's pending approval request
+
+    IF request.status = PENDING_APPROVAL THEN
+
+        DISPLAY request details
+        DISPLAY Valid Actions:
+          - EDIT_REQUEST
+          - DELETE_REQUEST
+          - WITHDRAW_REQUEST
+
+        employeeSelectedAction = SELECT action
+        
+        IF employeeSelectedAction = EDIT_REQUEST THEN
+            request.tile = ENTER the new title
+            request.comments = ENTER the new comments
+            request.dates = ENTER the new dates
+
+            validationResult = VALIDATE request after update
+
+            IF validationResultis VALID THEN
+                SAVE the updated request
+                RETURN
+                DISPLAY updated employee vacation summary
+            ELSE
+                DISPLAY validation errors
+                BACK to the edit page to correctrequest
+                RETURN
+            END IF
+
+        ELSE IF employeeSelectedAction = DELETE_REQUEST THEN
+            DELETE request
+
+        ELSE IF employeeSelectedAction = WITHDRAW_REQUEST THEN
+            EXECUTE withdraw a pending request flow
+        END IF
+
+    END IF
+
+
+    RETURN to the main VTS page
+    DISPLAY updated employee vacation summary
+
+END
+```
