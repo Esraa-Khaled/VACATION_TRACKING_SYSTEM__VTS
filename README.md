@@ -13,12 +13,31 @@ requests.
 
 ## Requirments:
 #### Functional Requirments (FR)
-* Keeps activity logs for all transactions
+| ID    | Requirement                                |
+| ------|:-----------------------------------------:|
+| FR-1  | Implements a flexible rules-based system for validating and verifying leaves | 
+| FR-2  | Enables manager approval (optional)      | 
+| FR-3  | Display the past requests      | 
+| FR-4  | Allow requests to be made up to a year and a half in the future|
+| FR-5 |  Uses e-mail notifications for manager approval and notify employees with the request status changes|
+| FR-6 | Keeps activity logs for all transactions |
+| FR-7 | HR and system administror can override all actions
+restricted by rules, with logging of those actions|
+| FR-8 | Allows managers to directly award personal leave time (with system-set
+limits)|
+| FR-9 | Provides a Web service interface for other internal systems to query employee’s vacation request summary|
+| FR-10 | Interface with the HR department legacy systems to retrieve employee information and changes |
 
 
 #### Non-functional Requirments (NFR)
-* Uses existing hardware and middleware
-* 
+| ID    | Requirement   |
+|-------|:--------------:|
+| NFR-1 | Uses existing hardware and middleware | 
+| NFR-2 | uses the portal’s single-sign-on mechanisms for all authentication|
+| NFR- 3 ||
+|||
+|||
+ 
 
 ## Constraints / Rules:
 
