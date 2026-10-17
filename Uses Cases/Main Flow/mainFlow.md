@@ -64,11 +64,17 @@ herself, or simply leave the VTS application.
 
 #### Pseudocode
 
+1. Submit a vacation request
 ```
 BEGIN
 
-    LOGIN TO Portal
+    LOGIN TO Intranet Portal
+    AUTHENTICATE employee
     OPEN VTS
+
+    employeeVacationSummary = GET employee requests and balances
+
+    DISPLAY employeeVacationSummary
 
     request = CREATE VacationRequest(
         employeeInfo,
@@ -95,6 +101,13 @@ BEGIN
     SAVE request
 
     DISPLAY employeeVacationSummary
+
+END
+```
+
+2. Manager Flow
+```
+BEGIN
 
 END
 ```
