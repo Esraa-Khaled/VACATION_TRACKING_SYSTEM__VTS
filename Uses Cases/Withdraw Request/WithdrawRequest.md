@@ -59,6 +59,7 @@ BEGIN
 
     END IF
 
+    RETURN to the main VTS page
     DISPLAY updated employee vacation summary
 
 END
