@@ -58,3 +58,7 @@ immediately sent to the employee who made the request. The man-
 ager’s screen returns to the main VTS home page, and the manager
 may approve other outstanding requests, make a request for him- or
 herself, or simply leave the VTS application.
+
+#### Request state machine:
+<img width="510" height="590" alt="Request_state_machine drawio" src="https://github.com/user-attachments/assets/e675f645-d391-4b6a-9380-39b69b6da4d4" />
+
