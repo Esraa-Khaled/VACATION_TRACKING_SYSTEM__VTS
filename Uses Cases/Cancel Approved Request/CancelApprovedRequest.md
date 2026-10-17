@@ -33,3 +33,41 @@ the cancellation, effecting no changes to the current requests.
 5. The employee is returned to the main VTS home page. The summaries
 are updated to reflect any changes made to the employee’s outstanding
 vacation time requests.
+
+#### Pseudocode
+
+1. Cancel an aproved request
+```
+BEGIN
+
+    LOGIN TO Intranet Portal
+    OPEN VTS
+
+    request = SELECT employee's aproved request
+
+    IF request.status = APPROVED THEN
+        IF request.date IS IN future THEN
+            ASK employee to confirm cancellation
+        ELSE IF request.date IS WITHIN previous 5 business days THEN
+            ASK employee to confirm cancellation with explanation
+        ELSE
+          DISPLAY cancellation invalid message
+          RETURN
+        END IF
+    END IF
+
+    IF cancellation is confirmed THEN
+        request.status = CANCELLED
+        SAVE request
+        RETURN the cancelled vacation allowance to employee
+        SEND notification email TO employee's Manager about request cancellation          
+    ELSE
+        ABORT cancellation request
+        No changes to the current request
+    END IF
+
+    RETURN to the main VTS page
+    DISPLAY updated employee vacation summary
+
+END
+```
