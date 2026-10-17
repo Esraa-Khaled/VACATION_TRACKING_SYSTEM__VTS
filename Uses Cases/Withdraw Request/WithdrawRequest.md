@@ -29,3 +29,37 @@ previously submitted vacation time request.
 removed from the manager’s list of pending approvals.
 6. The system sends a notification e-mail to the manager.
 7. The system updates the request state to withdrawn.
+
+#### Pseudocode
+
+1. Withdrawn a pending request
+```
+BEGIN
+
+    LOGIN TO Intranet Portal
+    OPEN VTS
+
+    request = SELECT employee's pending request
+
+    IF request.status = PENDING_APPROVAL THEN
+
+        DISPLAY request details
+        ASK employee to confirm withdrawal
+
+        IF employee confirms withdrawal THEN
+
+            request.status = WITHDRAWN
+            SAVE request
+
+            REMOVE request FROM manager's pending approvals list
+
+            SEND notification email TO employee's Manager for request withdrawal
+
+        END IF
+
+    END IF
+
+    DISPLAY updated employee vacation summary
+
+END
+```
