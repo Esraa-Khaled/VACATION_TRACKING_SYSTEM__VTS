@@ -11,7 +11,7 @@ The main goal of this application is to improve the internal business processes 
 this organization, at least with respect to the time it takes to manage vacation time
 requests. 
 
-## Requirments:
+## Requirments
 #### Functional Requirments (FR)
 | ID    | Requirement                                |
 | ------|-----------------------------------------|
@@ -39,7 +39,7 @@ requests.
 | NFR-7 | Back Up System Logs|
  
 
-## Constraints / Rules:
+## Constraints / Rules
 
 * An employee can’t take more than X consecutive days of leave for Y type of
 grant.
@@ -52,10 +52,29 @@ ees scheduled to work from the list Y of employees.
 * Vacation time of this type is limited to certain days of the week: {M, T, W,
 Th, F, Sat, Sun}.
 
-## Domain
+## Domain: Problem Definition
+
+The main goal of this application is to improve the internal business processes of
+this organization, at least with respect to the time it takes to manage vacation time
+requests. In the past, all vacation time had to be approved by an immediate man-
+ager and then checked by a clerk in the HR department before it was authorized.
+Sometimes this manual process could take days. An automated system will speed
+up this process and will require at most one manual approval by the immediate
+manager (some high-level employees may not require manager approval).
+This system has the potential to save time and money mostly in the HR depart-
+ment, which is essentially taken out of the individual time request process and
+replaced by a rules-based validation system. HR personnel are still responsible
+for entering and updating employee vacation data in the system; however, they
+will no longer be a link in the chain for requesting and validating each time
+request.
+
+#### Domain Rules
+- All employees work eight-hour days.
+- Each employee’s vacation time requests are subject to the restrictions of each employee’s primary work location in addition to overall company policies and restrictions.
+- Vacation time request validation rules are defined and owned by the HR department.
 
 
-## Actors:
+## Actors
 1. **Employee:** The main user of this system. An employee uses this system to
 manage his or her vacation time.
 2. **Manager:** An employee who has all the abilities and goals of a regular
@@ -72,7 +91,7 @@ separate login IDs to manage these two different roles.
 tem’s technical resources (e.g., Web server, database) and for collecting and
 archiving all log files.
 
-## Uses cases:
+## Uses cases
 1. **Manage Time:** Describes how employees request and view vacation time
 requests.
 2. **Approve Request:** Describes how a manager responds to a subordi-
