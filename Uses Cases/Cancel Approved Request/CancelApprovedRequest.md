@@ -46,6 +46,7 @@ BEGIN
     request = SELECT employee's aproved request
 
     IF request.status = APPROVED THEN
+
         IF request.date IS IN future THEN
             ASK employee to confirm cancellation
         ELSE IF request.date IS WITHIN previous 5 business days THEN
@@ -54,6 +55,7 @@ BEGIN
           DISPLAY cancellation invalid message
           RETURN
         END IF
+
     END IF
 
     IF cancellation is confirmed THEN
