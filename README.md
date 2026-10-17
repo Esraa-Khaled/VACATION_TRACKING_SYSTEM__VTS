@@ -11,6 +11,31 @@ The main goal of this application is to improve the internal business processes 
 this organization, at least with respect to the time it takes to manage vacation time
 requests. 
 
+## Requirments:
+#### Functional Requirments (FR)
+* Keeps activity logs for all transactions
+
+
+#### Non-functional Requirments (NFR)
+* Uses existing hardware and middleware
+* 
+
+## Constraints / Rules:
+
+* An employee can’t take more than X consecutive days of leave for Y type of
+grant.
+* Vacation time of type X cannot be taken when directly adjacent to a com-
+pany or location-specific holiday.
+* Vacation time of type X is limited to Y hours per week or month.
+* Vacation time may not be granted when there are only X number of employ-
+ees scheduled to work from the list Y of employees.
+* Vacation time may not be granted on these dates: X.
+* Vacation time of this type is limited to certain days of the week: {M, T, W,
+Th, F, Sat, Sun}.
+
+## Domain
+
+
 ## Actors:
 1. **Employee:** The main user of this system. An employee uses this system to
 manage his or her vacation time.
@@ -27,15 +52,6 @@ separate login IDs to manage these two different roles.
 4. **System Admin:** A role responsible for the smooth running of the sys-
 tem’s technical resources (e.g., Web server, database) and for collecting and
 archiving all log files.
-
-## Requirments:
-#### Functional Requirments (FR)
-* Keeps activity logs for all transactions
-
-
-#### Non-functional Requirments (NFR)
-* Uses existing hardware and middleware
-* 
 
 ## Uses cases:
 1. **Manage Time:** Describes how employees request and view vacation time
