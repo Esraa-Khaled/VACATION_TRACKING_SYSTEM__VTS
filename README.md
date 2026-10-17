@@ -36,6 +36,7 @@ requests.
 | NFR-4  | Security: Central Authentication Service (CAS), uses the portal’s single-sign-on mechanisms for all authentication |
 | NFR-5  | Implement an intuitive user interface that has a quick response and is easy to navigate |
 | NFR-6  | The interface should not have any dependencies on specific browser versions or features, and should behave properly on all standard HTML 3.2-capable browsers |
+| NFR-7 | Back Up System Logs|
  
 
 ## Constraints / Rules:
