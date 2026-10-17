@@ -72,7 +72,7 @@ BEGIN
     AUTHENTICATE employee
     OPEN VTS
 
-    employeeVacationSummary = GET employee requests and balances
+    employeeVacationSummary = GET employee requests and outstanding balances
 
     DISPLAY employeeVacationSummary
 
@@ -93,7 +93,7 @@ BEGIN
 
     IF request requires manager approval THEN
         request.status = PENDING_APPROVAL
-        SEND email TO employeeManager
+        SEND email TO employee's Manager
     ELSE
         request.status = APPROVED
     END IF
