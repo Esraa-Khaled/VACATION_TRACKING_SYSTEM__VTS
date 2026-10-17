@@ -62,3 +62,39 @@ herself, or simply leave the VTS application.
 #### Request state machine:
 <img width="510" height="590" alt="Request_state_machine drawio" src="https://github.com/user-attachments/assets/e675f645-d391-4b6a-9380-39b69b6da4d4" />
 
+#### Pseudocode
+
+```
+BEGIN
+
+    LOGIN TO Portal
+    OPEN VTS
+
+    request = CREATE VacationRequest(
+        employeeInfo,
+        dates,
+        hours,
+        title,
+        comment
+    )
+
+    validationResult = VALIDATE(request)
+
+    IF validationResult is invalid THEN
+        DISPLAY validationErrors
+        RETURN
+    END IF
+
+    IF request requires manager approval THEN
+        request.status = PENDING_APPROVAL
+        SEND email TO employeeManager
+    ELSE
+        request.status = APPROVED
+    END IF
+
+    SAVE request
+
+    DISPLAY employeeVacationSummary
+
+END
+```
