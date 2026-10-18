@@ -100,7 +100,8 @@ BEGIN
 
     SAVE request
 
-    DISPLAY employeeVacationSummary
+    RETURN To VTS main page
+    DISPLAY new employee Vacation Summary
 
 END
 ```
@@ -108,6 +109,50 @@ END
 2. Manager Flow
 ```
 BEGIN
+
+    LOGIN TO Intranet Portal
+    AUTHENTICATE manager
+    OPEN VTS
+
+    managerSummary = GET manager's requests and outstanding balances
+
+    pendingRequests = GET subordinate employees requests pending approval
+
+    request = SELECT one of the pending requests
+    DISPLAY request details
+
+    DISPLAY valid decisions:
+        - APPROVE
+        - DENY
+
+    decision = SELECT decision
+
+    IF decision = APPROVE THEN
+
+        request.status = APPROVED
+        SAVE request
+        SEND email To employee about the request approval
+  
+    ELSE IF decision = DENY THEN
+
+        ASK manager for the denial explanation
+
+        IF denial explanation Is provided
+
+            request.status = REJECTED
+            Save request
+            SEND email To employee about the request denail/rejection
+
+        ELSE
+            DISPLAY "Denial explanation is required"
+            RETURN TO decision
+
+        END IF
+
+    END IF
+
+    RETURN To VTS main page 
+    DISPLAY update manager summary
 
 END
 ```
