@@ -86,3 +86,6 @@ records and their rules.
 6. ```Category``` — the type of leave (```Annual```, ```Casual```, ```Sick```, ```Work Allowence```)
 7. ```Available_balance``` — the remaining leave allowance
 8. ```Grant``` —  context represents available time for the employee to draw on when requesting time off
+
+<img width="1096" height="815" alt="Vacation_Tracking_System_ERD" src="https://github.com/user-attachments/assets/68e89dd9-26bc-45a4-909f-9a9f2b264978" />
+
