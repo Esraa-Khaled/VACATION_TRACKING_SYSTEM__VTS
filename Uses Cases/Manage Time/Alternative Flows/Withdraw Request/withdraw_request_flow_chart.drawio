@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="GV_UwUKKsRjvnmfFAUJ2">
+    <mxGraphModel dx="1141" dy="657" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="i88CsCOI2Hp2mbCcAl_R-2" edge="1" parent="1" source="i88CsCOI2Hp2mbCcAl_R-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="i88CsCOI2Hp2mbCcAl_R-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i88CsCOI2Hp2mbCcAl_R-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Employee open VTS Via portal" vertex="1">
+          <mxGeometry height="60" width="120" x="128" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="i88CsCOI2Hp2mbCcAl_R-4" edge="1" parent="1" source="i88CsCOI2Hp2mbCcAl_R-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="i88CsCOI2Hp2mbCcAl_R-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i88CsCOI2Hp2mbCcAl_R-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Display Balance summary" vertex="1">
+          <mxGeometry height="60" width="120" x="128" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="i88CsCOI2Hp2mbCcAl_R-6" edge="1" parent="1" source="i88CsCOI2Hp2mbCcAl_R-7" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="i88CsCOI2Hp2mbCcAl_R-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i88CsCOI2Hp2mbCcAl_R-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Select&amp;nbsp; a pending vacation request" vertex="1">
+          <mxGeometry height="60" width="120" x="128" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="i88CsCOI2Hp2mbCcAl_R-8" edge="1" parent="1" source="i88CsCOI2Hp2mbCcAl_R-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="i88CsCOI2Hp2mbCcAl_R-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i88CsCOI2Hp2mbCcAl_R-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Start" vertex="1">
+          <mxGeometry height="66" width="114" x="131" y="51" as="geometry" />
+        </mxCell>
+        <mxCell id="i88CsCOI2Hp2mbCcAl_R-10" edge="1" parent="1" source="i88CsCOI2Hp2mbCcAl_R-11" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="i88CsCOI2Hp2mbCcAl_R-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i88CsCOI2Hp2mbCcAl_R-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Display withdrawal confirmation" vertex="1">
+          <mxGeometry height="60" width="120" x="128" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="i88CsCOI2Hp2mbCcAl_R-12" edge="1" parent="1" source="i88CsCOI2Hp2mbCcAl_R-13" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="i88CsCOI2Hp2mbCcAl_R-14" value="Yes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i88CsCOI2Hp2mbCcAl_R-13" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Is withdrawal confirmed" vertex="1">
+          <mxGeometry height="114" width="120" x="128" y="493" as="geometry" />
+        </mxCell>
+        <mxCell id="i88CsCOI2Hp2mbCcAl_R-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="A" vertex="1">
+          <mxGeometry height="50" width="50" x="163" y="638" as="geometry" />
+        </mxCell>
+        <mxCell id="i88CsCOI2Hp2mbCcAl_R-18" edge="1" parent="1" source="i88CsCOI2Hp2mbCcAl_R-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="i88CsCOI2Hp2mbCcAl_R-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i88CsCOI2Hp2mbCcAl_R-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="A" vertex="1">
+          <mxGeometry height="50" width="50" x="346" y="51" as="geometry" />
+        </mxCell>
+        <mxCell id="i88CsCOI2Hp2mbCcAl_R-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Remove request from manager UI" vertex="1">
+          <mxGeometry height="60" width="120" x="311" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="i88CsCOI2Hp2mbCcAl_R-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Update request status to withdraw" vertex="1">
+          <mxGeometry height="60" width="120" x="311" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="i88CsCOI2Hp2mbCcAl_R-22" edge="1" parent="1" source="i88CsCOI2Hp2mbCcAl_R-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="i88CsCOI2Hp2mbCcAl_R-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i88CsCOI2Hp2mbCcAl_R-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Notify the manager via email" vertex="1">
+          <mxGeometry height="60" width="120" x="311" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="i88CsCOI2Hp2mbCcAl_R-21" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="End" vertex="1">
+          <mxGeometry height="66" width="114" x="314" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="i88CsCOI2Hp2mbCcAl_R-23" edge="1" parent="1" source="i88CsCOI2Hp2mbCcAl_R-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.021;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;" target="i88CsCOI2Hp2mbCcAl_R-21" value="No">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
