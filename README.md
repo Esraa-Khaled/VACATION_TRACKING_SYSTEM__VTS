@@ -76,3 +76,13 @@ records and their rules.
 6. **Manage Leave Categories:** Describes how an HR clerk manages leave categories and their rules.
 7. **Override Leave Records:** Describes how an HR clerk may override any rejection of leave time requests made by the rules in the system.
 8. **Back Up System Logs:** Describes how the system administrator backs up the system’s logs.
+
+## Entities
+1. ```Employee``` — the person using the system
+2. ```Role``` — the type of system responsibility (```Employee```, ```Manager```, ```HR Clerk```)
+3. ```Employee_Role``` — the association between employees and roles
+4. ```Request``` — the time-off request
+5. ```Request_Status``` — the current state of a request (```Pending Approval```, ```Approved```, ```Rejected```, ```Cancelled```, ```Withdrawn```)
+6. ```Category``` — the type of leave (```Annual```, ```Casual```, ```Sick```, ```Work Allowence```)
+7. ```Available_balance``` — the remaining leave allowance
+8. ```Grant``` —  context represents available time for the employee to draw on when requesting time off
