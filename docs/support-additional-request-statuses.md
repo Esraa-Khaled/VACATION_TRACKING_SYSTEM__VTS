@@ -55,3 +55,7 @@
 ### Request state machine
 
 <img width="799" height="606" alt="Request_state_machine" src="https://github.com/user-attachments/assets/c44bc8d9-57e1-4cee-a7e9-47d3c8888524" />
+
+### Entity Diagram
+
+<img width="1133" height="1043" alt="Entity_Diagram" src="https://github.com/user-attachments/assets/f3c96fb6-704b-4997-8fdc-d54340c9ed59" />
