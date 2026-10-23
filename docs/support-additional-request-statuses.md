@@ -51,3 +51,7 @@
 | CANCEL | APPROVED | CANCELED | Employee |
 | HR_APPROVE | HR_PENDING | HR_APPROVED | HR |
 | HR_REJECT | HR_PENDING | REJECTED | HR |
+
+### Request state machine
+
+<img width="799" height="606" alt="Request_state_machine" src="https://github.com/user-attachments/assets/c44bc8d9-57e1-4cee-a7e9-47d3c8888524" />
