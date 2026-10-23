@@ -44,7 +44,7 @@ vacation time requests.
 
 #### Sequence diagram
 
-<img width="1061" height="1681" alt="cancel_approved_request_sequence_flow" src="https://github.com/user-attachments/assets/29b44206-7000-450b-9081-2239be591c7a" />
+<img width="1061" height="1681" alt="cancel_approved_request_sequence_flow" src="https://github.com/user-attachments/assets/e759e3ae-4e6d-4999-883c-59a1b02b93b9" />
 
 
 #### Pseudocode
