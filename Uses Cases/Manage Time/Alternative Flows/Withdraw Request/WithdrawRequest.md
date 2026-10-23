@@ -30,6 +30,16 @@ removed from the manager’s list of pending approvals.
 6. The system sends a notification e-mail to the manager.
 7. The system updates the request state to withdrawn.
 
+#### Flow chart
+
+<img width="305" height="639" alt="withdraw_request_flow_chart" src="https://github.com/user-attachments/assets/25b96363-ff8b-4616-91f8-18670d469a06" />
+
+
+#### Sequence diagram
+
+<img width="1020" height="984" alt="Withdrawl_request_sequence_flow" src="https://github.com/user-attachments/assets/e92bd54e-6a66-47c5-affc-2b3bb9696630" />
+
+
 #### Pseudocode
 
 1. Withdrawn a pending request
