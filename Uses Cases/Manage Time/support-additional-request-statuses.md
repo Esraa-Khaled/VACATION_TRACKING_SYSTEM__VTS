@@ -58,4 +58,4 @@
 
 ### Entity Diagram
 
-<img width="1133" height="1043" alt="Entity_Diagram" src="https://github.com/user-attachments/assets/f3c96fb6-704b-4997-8fdc-d54340c9ed59" />
+<img width="1133" height="1043" alt="ERD" src="https://github.com/user-attachments/assets/86e9e943-dfae-46b6-9213-368aee6aebc6" />
