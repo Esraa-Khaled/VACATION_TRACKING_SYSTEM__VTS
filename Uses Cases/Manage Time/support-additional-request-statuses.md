@@ -59,3 +59,11 @@
 ### Entity Diagram
 
 <img width="1133" height="1043" alt="ERD" src="https://github.com/user-attachments/assets/86e9e943-dfae-46b6-9213-368aee6aebc6" />
+
+---
+
+> When you add a new status like ``MEDICAL_REVIEW_PENDING``, ``MEDICAL_APPROVED`` you only need to:
+> 1. Insert the new status into REQUEST_STATUS.
+> 2. Insert the allowed transitions into REQUEST_WORKFLOW_TRANSITION.
+> 3. Configure the responsible role.
+> The existing REQUEST table remains unchanged.
