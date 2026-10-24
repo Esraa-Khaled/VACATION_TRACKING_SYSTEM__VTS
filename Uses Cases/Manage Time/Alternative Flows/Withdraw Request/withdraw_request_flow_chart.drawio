@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="GV_UwUKKsRjvnmfFAUJ2">
-    <mxGraphModel dx="1141" dy="657" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1095" dy="673" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -49,17 +49,23 @@
         <mxCell id="i88CsCOI2Hp2mbCcAl_R-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="A" vertex="1">
           <mxGeometry height="50" width="50" x="346" y="51" as="geometry" />
         </mxCell>
+        <mxCell id="6tT4_88Pps6aC-u5Yhd4-1" edge="1" parent="1" source="i88CsCOI2Hp2mbCcAl_R-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="i88CsCOI2Hp2mbCcAl_R-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="i88CsCOI2Hp2mbCcAl_R-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Remove request from manager UI" vertex="1">
-          <mxGeometry height="60" width="120" x="311" y="155" as="geometry" />
+          <mxGeometry height="60" width="120" x="311" y="167" as="geometry" />
+        </mxCell>
+        <mxCell id="6tT4_88Pps6aC-u5Yhd4-2" edge="1" parent="1" source="i88CsCOI2Hp2mbCcAl_R-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="i88CsCOI2Hp2mbCcAl_R-20">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i88CsCOI2Hp2mbCcAl_R-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Update request status to withdraw" vertex="1">
-          <mxGeometry height="60" width="120" x="311" y="245" as="geometry" />
+          <mxGeometry height="60" width="120" x="311" y="270" as="geometry" />
         </mxCell>
         <mxCell id="i88CsCOI2Hp2mbCcAl_R-22" edge="1" parent="1" source="i88CsCOI2Hp2mbCcAl_R-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="i88CsCOI2Hp2mbCcAl_R-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i88CsCOI2Hp2mbCcAl_R-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Notify the manager via email" vertex="1">
-          <mxGeometry height="60" width="120" x="311" y="335" as="geometry" />
+          <mxGeometry height="60" width="120" x="311" y="373" as="geometry" />
         </mxCell>
         <mxCell id="i88CsCOI2Hp2mbCcAl_R-21" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="End" vertex="1">
           <mxGeometry height="66" width="114" x="314" y="510" as="geometry" />
