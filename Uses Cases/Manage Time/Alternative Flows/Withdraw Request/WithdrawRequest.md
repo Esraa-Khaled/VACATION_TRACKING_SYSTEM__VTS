@@ -32,7 +32,7 @@ removed from the manager’s list of pending approvals.
 
 #### Flow chart
 
-<img width="305" height="639" alt="withdraw_request_flow_chart" src="https://github.com/user-attachments/assets/25b96363-ff8b-4616-91f8-18670d469a06" />
+<img width="305" height="639" alt="withdraw_request_flow_chart" src="https://github.com/user-attachments/assets/fb43d571-13d7-4b5b-8798-810bad8680f7" />
 
 
 #### Sequence diagram
