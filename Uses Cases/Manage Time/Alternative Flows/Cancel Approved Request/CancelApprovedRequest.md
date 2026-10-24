@@ -49,14 +49,14 @@ vacation time requests.
 
 #### Pseudocode
 
-1. Cancel an aproved request
+1. Cancel an approved request
 ```
 BEGIN
 
     LOGIN TO Intranet Portal
     OPEN VTS
 
-    request = SELECT employee's aproved request
+    request = SELECT employee's approved request
 
     IF request.status = APPROVED THEN
 

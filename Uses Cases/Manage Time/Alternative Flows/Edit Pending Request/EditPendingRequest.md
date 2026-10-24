@@ -1,17 +1,17 @@
 ## Alternate flow: Edit Pending Request:
 
-#### Actor:
+#### Actor
 - Employee
 
-#### Goal: 
+#### Goal 
 - The employee wants to edit the description or title of a pending request.
 
-#### Preconditions.
+#### Preconditions
 - An employee has made a vacation time request, and that
 request has yet to be approved or denied by an authorized manager. See also
 main flow preconditions.
 
-#### Main Flow:
+#### Main Flow
 
 1. The employee navigates to the VTS home page through the intranet
 portal application, which identifies and authenticates the employee with
@@ -40,7 +40,6 @@ explains all problems.
 #### Sequence diagram
 
 <img width="802" height="965" alt="edit_request_sequence_diagram" src="https://github.com/user-attachments/assets/a1bfee39-bf85-430d-ae81-82f8288768df" />
-
 
 #### Pseudocode
 

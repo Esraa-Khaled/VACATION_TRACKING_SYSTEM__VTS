@@ -1,19 +1,19 @@
 ## Alternate flow: Withdraw Request
 
-#### Actor:
+#### Actor
 - Employee
 
-#### Goal: 
+#### Goal
 - The employee wants to withdraw an outstanding request for vacation time.
 Preconditions: An employee has made a vacation time request, and that
 request has yet to be approved or denied by an authorized manager. See also
 
-#### Preconditions:
+#### Preconditions
 -  An employee has made a vacation time request, and that
 request has yet to be approved or denied by an authorized manager. See also
 main flow preconditions.
 
-#### Main flow:
+#### Main flow
 1. The employee navigates to the VTS home page through the intranet
 portal application, which identifies and authenticates the employee with
 the privileges necessary for using the VTS.
