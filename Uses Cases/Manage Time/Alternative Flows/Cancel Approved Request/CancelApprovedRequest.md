@@ -39,12 +39,12 @@ vacation time requests.
 
 #### Flow chart
 
-<img width="605" height="1308" alt="cancel_approved_request_flow_chart" src="https://github.com/user-attachments/assets/6f0a1fc0-72e7-4f9c-b42b-313371f16959" />
+<img width="709" height="1019" alt="cancel_approved_request_flow_chart" src="https://github.com/user-attachments/assets/e5a14800-4611-434d-8ae8-ed105d569439" />
 
 
 #### Sequence diagram
 
-<img width="1061" height="1681" alt="cancel_approved_request_sequence_flow" src="https://github.com/user-attachments/assets/e759e3ae-4e6d-4999-883c-59a1b02b93b9" />
+<img width="1061" height="1681" alt="cancel_approved_request_sequence_flow" src="https://github.com/user-attachments/assets/0fe624a2-c7f7-48fd-a9ae-78a9adcb52e4" />
 
 
 #### Pseudocode
