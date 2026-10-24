@@ -37,6 +37,9 @@ explains all problems.
 
 <img width="800" height="629" alt="edit_request_flow_chart" src="https://github.com/user-attachments/assets/3619f20f-1581-46ea-a48d-2dbd915cd2dd" />
 
+#### Sequence diagram
+
+<img width="802" height="965" alt="edit_request_sequence_diagram" src="https://github.com/user-attachments/assets/a1bfee39-bf85-430d-ae81-82f8288768df" />
 
 
 #### Pseudocode
