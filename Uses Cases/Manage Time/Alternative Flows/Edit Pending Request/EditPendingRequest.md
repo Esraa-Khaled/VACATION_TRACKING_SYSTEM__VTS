@@ -33,6 +33,12 @@ main VTS home page. If there are errors or problems with the informa-
 tion changes, the VTS redisplays the editing page and highlights and
 explains all problems.
 
+#### Flow chart
+
+<img width="800" height="629" alt="edit_request_flow_chart" src="https://github.com/user-attachments/assets/3619f20f-1581-46ea-a48d-2dbd915cd2dd" />
+
+
+
 #### Pseudocode
 
 1. Edit a pending request
