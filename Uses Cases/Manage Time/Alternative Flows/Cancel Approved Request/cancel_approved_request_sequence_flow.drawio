@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="fTlI6zTWwUdRDlGpHL6Y">
-    <mxGraphModel dx="2826" dy="1735" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1251" dy="769" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -169,7 +169,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Omeyordg-pD6EhYm8Jaa-22" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;" value="Request service" vertex="1">
-          <mxGeometry height="1559" width="100" x="583" y="240" as="geometry" />
+          <mxGeometry height="1602" width="100" x="583" y="197" as="geometry" />
         </mxCell>
         <mxCell id="Omeyordg-pD6EhYm8Jaa-28" parent="Omeyordg-pD6EhYm8Jaa-22" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;" value="" vertex="1">
           <mxGeometry height="276" width="10" x="45" y="382" as="geometry" />
@@ -191,7 +191,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Omeyordg-pD6EhYm8Jaa-131" parent="Omeyordg-pD6EhYm8Jaa-22" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;" value="" vertex="1">
-          <mxGeometry height="113" width="10" x="45" y="1383" as="geometry" />
+          <mxGeometry height="94" width="10" x="45" y="1425" as="geometry" />
         </mxCell>
         <mxCell id="Omeyordg-pD6EhYm8Jaa-29" edge="1" parent="1" source="Omeyordg-pD6EhYm8Jaa-23" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;" target="Omeyordg-pD6EhYm8Jaa-19" value="Return Leave summary">
           <mxGeometry relative="1" x="0.2826" as="geometry">
@@ -241,7 +241,7 @@
           <mxGeometry height="1444" width="10" x="5" y="87" as="geometry" />
         </mxCell>
         <mxCell id="Omeyordg-pD6EhYm8Jaa-40" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#b0e3e6;strokeColor=#0e8088;" value="Email Notification service" vertex="1">
-          <mxGeometry height="1588" width="100" x="730" y="193" as="geometry" />
+          <mxGeometry height="1584" width="100" x="730" y="197" as="geometry" />
         </mxCell>
         <mxCell id="Omeyordg-pD6EhYm8Jaa-96" parent="Omeyordg-pD6EhYm8Jaa-40" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#b0e3e6;strokeColor=#0e8088;" value="" vertex="1">
           <mxGeometry height="35" width="10" x="45" y="884" as="geometry" />
@@ -349,7 +349,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Omeyordg-pD6EhYm8Jaa-89" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;" value="" vertex="1">
-          <mxGeometry height="94" width="10" x="628" y="987" as="geometry" />
+          <mxGeometry height="80" width="10" x="628" y="1005" as="geometry" />
         </mxCell>
         <mxCell id="Omeyordg-pD6EhYm8Jaa-91" edge="1" parent="1" source="Omeyordg-pD6EhYm8Jaa-13" style="edgeStyle=sequenceEdgeStyle;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;libavoidRouting=0;fontSize=12;startSize=8;endSize=8;" target="Omeyordg-pD6EhYm8Jaa-22" value="Cancel equest">
           <mxGeometry relative="1" as="geometry">
